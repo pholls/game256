@@ -4,4 +4,4 @@
 
 This version was created in one day by [Pat Holland](https://github.com/pholls) and [Justin Grassé](https://github.com/justGrasse) in January 2017 as an assignment at Dev Bootcamp in Seattle.
 
-Check out the app [here](game256.herokuapp.com).
+Check out the app [here](http://game256.herokuapp.com).
