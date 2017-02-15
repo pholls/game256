@@ -1,0 +1,65 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color: gray;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover {
+  color: black;
+}
+
+.grid-container {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+
+}
+
+.grid-cell {
+  display: inline-block;
+  width: 110px;
+  height: 90px;
+  margin: 5px;
+  padding-top: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.yellow {
+  background-color: #FCC44B;
+}
+
+.game-over p {
+  display: inline-block;
+  width: 100px;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+  width: 100px;
+  margin: auto;
+}
+
+.nav-link {
+  width: 200px;
+  margin: auto;
+}
