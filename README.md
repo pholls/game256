@@ -1,24 +1,7 @@
-# README
+# 256
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+256 is a JavaScript clone of the popular game [2048](https://gabrielecirulli.github.io/2048/).
 
-Things you may want to cover:
+This version was created in one day by [Pat Holland](https://github.com/pholls) and [Justin Grassé](https://github.com/justGrasse) in January 2017 as an assignment at Dev Bootcamp in Seattle.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check out the app [here](game256.herokuapp.com).
