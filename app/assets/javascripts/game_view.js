@@ -6,12 +6,13 @@ GameView.prototype.update = function(model){
   flatten(model.board).forEach(function(cellValue, index){
     if(cellValue === '0'){
       $("#cell-" + index).text('');
-      $("#cell-" + index).removeClass('blue', 'goldenrod').addClass('gray');
+      $("#cell-" + index).removeClass('blue').removeClass( 'yellow').addClass('gray');
     } else if(cellValue >= 256) {
-      $("#cell-" + index).removeClass('blue', 'gray').addClass('goldenrod');
+      $("#cell-" + index).text(cellValue);
+      $("#cell-" + index).removeClass('blue').removeClass( 'gray').addClass('yellow');
     } else {
       $("#cell-" + index).text(cellValue);
-      $("#cell-" + index).removeClass('gray', 'goldenrod').addClass('blue');
+      $("#cell-" + index).removeClass('gray').removeClass( 'yellow').addClass('blue');
     }
   });
 }
