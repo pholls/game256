@@ -8,6 +8,7 @@ GameView.prototype.update = function(model){
       $("#cell-" + index).text('');
       $("#cell-" + index).removeClass('blue').removeClass( 'yellow').addClass('gray');
     } else if(cellValue >= 256) {
+      $("#cell-" + index).text(cellValue);
       $("#cell-" + index).removeClass('blue').removeClass( 'gray').addClass('yellow');
     } else {
       $("#cell-" + index).text(cellValue);
