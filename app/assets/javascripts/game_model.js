@@ -135,6 +135,18 @@ function findZeroes(array) {
   return indices;
 }
 
+function movesRemaining(board) {
+  var zeroes = [];
+  board.forEach(function(row) {
+    zeroes.push(findZeroes(row))
+  })
+  if (flatten(zeroes).length > 0) {
+    return true
+  } else {
+    return false
+  }
+}
+
 GameModel.prototype.gameOver = function() {
   var testObject = new GameModel();
   testObject.board = this.board;
@@ -142,7 +154,7 @@ GameModel.prototype.gameOver = function() {
   testObject.moveLeft();
   testObject.moveDown();
   testObject.moveRight();
-  if (testObject.toString() === this.toString() && findZeroes(this.board).length === 0) {
+  if (testObject.toString() === this.toString() && !movesRemaining(this.board)) {
     return true;
   } else {
     return false;
