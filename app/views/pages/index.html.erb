@@ -20,6 +20,11 @@
     <%= link_to 'check out our code on GitHub!', 'https://github.com/pholls/game256'%>
   </nav>
 
+  <div class='game-over hidden'>
+    <p>Game over!</p>
+    <%= link_to 'Try again?', root_path, class: 'try-again' %>
+  </div>
+
   <div class="grid-container">
     <div class="grid-row">
       <div class="grid-cell" id="cell-0"></div>
@@ -45,11 +50,6 @@
       <div class="grid-cell" id="cell-14"></div>
       <div class="grid-cell" id="cell-15"></div>
     </div>
-  </div>
-
-  <div class='game-over hidden'>
-    <p>Game over!</p>
-    <%= link_to 'Try again?', root_path, class: 'try-again' %>
   </div>
 
 </body>
