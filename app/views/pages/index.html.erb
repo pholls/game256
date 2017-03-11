@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--
-    normalize.css removes cross-browser differences in defaults, e.g.,
-    differences in how form elements appear between Firefox and IE
-    See: http://necolas.github.com/normalize.css/
-  -->
-  <!-- <link rel="stylesheet" href="/css/normalize.css"> -->
-  <!--
-    application.css is where you put your styles
-  -->
   <link rel="stylesheet" href="./css/application.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="./js/mousetrap.js"></script>
   <script src="./js/underscore.js"></script>
@@ -29,6 +19,11 @@
   <nav class='nav-link'>
     <%= link_to 'check out our code on GitHub!', 'https://github.com/pholls/game256'%>
   </nav>
+
+  <div class='game-over hidden'>
+    <p>Game over!</p>
+    <%= link_to 'Try again?', root_path, class: 'try-again' %>
+  </div>
 
   <div class="grid-container">
     <div class="grid-row">
@@ -55,11 +50,6 @@
       <div class="grid-cell" id="cell-14"></div>
       <div class="grid-cell" id="cell-15"></div>
     </div>
-  </div>
-
-  <div class='game-over hidden'>
-    <p>Game over!</p>
-    <%= link_to 'Try again?', root_path, class: 'try-again' %>
   </div>
 
 </body>
