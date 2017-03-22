@@ -1,27 +1,65 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
 
+a {
+  color: gray;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover {
+  color: black;
+}
+
+.grid-container {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+
+}
+
+.grid-cell {
+  display: inline-block;
+  width: 110px;
+  height: 90px;
+  margin: 5px;
+  padding-top: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.yellow {
+  background-color: #FCC44B;
+}
+
+.game-over p {
+  display: inline-block;
+  width: 100px;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+  width: 100px;
+  margin: auto;
+}
+
+.nav-link {
+  width: 200px;
+  margin: auto;
+}
