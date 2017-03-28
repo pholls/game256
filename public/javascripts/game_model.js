@@ -3,9 +3,9 @@ function GameModel(boardString){
   // boardString = null if NOT VALID???
   var boardString = boardString || this.generateNewBoard();
   this.board = [  boardString.substr(0,4).split(''),
-                  boardString.substr(4,4).split(''),
-                  boardString.substr(8,4).split(''),
-                  boardString.substr(12,4).split('') ];
+  boardString.substr(4,4).split(''),
+  boardString.substr(8,4).split(''),
+  boardString.substr(12,4).split('') ];
 }
 
 GameModel.prototype.generateNewBoard = function () {
@@ -81,8 +81,8 @@ GameModel.prototype.transpose = function(){
   this.board = new_array;
 }
 
- GameModel.prototype.flip = function() {
-   this.board.map(function(row) {
+GameModel.prototype.flip = function() {
+  this.board.map(function(row) {
     return row.reverse();
   })
 }
