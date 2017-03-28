@@ -8,4 +8,4 @@ Check out the app [here](http://game256.herokuapp.com).
 
 ## Node
 
-This app was originally built on Rails 5.0.1. It was changed to use Node.js 5.9.1. It was adapted from the Heroku Node Quick-Start Guide.
+This app was originally built on Rails 5.0.1. It was changed to use Node.js 5.9.1. It was adapted from the Heroku [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article.
