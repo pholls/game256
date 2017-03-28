@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var $ = require("jquery");
 
 require("jsdom").env("", function(err, window) {
     if (err) {
