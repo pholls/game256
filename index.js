@@ -1,5 +1,15 @@
 var express = require('express');
 var app = express();
+var $ = require("jquery");
+
+require("jsdom").env("", function(err, window) {
+    if (err) {
+        console.error(err);
+        return;
+    }
+
+    var $ = require("jquery")(window);
+});
 
 app.set('port', (process.env.PORT || 5000));
 
