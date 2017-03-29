@@ -11,3 +11,10 @@ Check out the app [here](http://game256.herokuapp.com).
 This app was originally built on Rails 5.0.1. It was changed to use Node.js 5.9.1, adapted using the app from the Heroku [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article.
 
 View the deployed Node version [here](https://game-256-node.herokuapp.com/). Be sure to check out this repository's "[nodify](https://github.com/pholls/game256/tree/nodify-game)" branch.
+
+### Versions
+
+* Rails 5.0.1 [deployed](https://game256.herokuapp.com/)
+    * [GitHub repository](https://github.com/pholls/game256/tree/master)
+* Node 5.9.1 [deployed](https://game-256-node.herokuapp.com/)
+    * [GitHub repository](https://github.com/pholls/game256/tree/nodify-game)
